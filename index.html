@@ -29,7 +29,7 @@
     <title>Kaedenoki</title>
   </head>
   
-  <body>
+  <body style="overflow-x: hidden;">
     <!-- HEADER -->
     <header>
       <nav class="navbar navbar-expand-lg navbar-dark scrolling-navbar fixed-top" style="box-shadow: none;">
@@ -67,7 +67,7 @@
                     <div class="col-md-10">
     
                         <!-- Heading -->
-                        <h2 class="display-2 font-weight-bold white-text pt-5 mb-2" style="color: #333333;font-family: 'Righteous', cursive;">KaedeNoKi</h2>
+                        <h2 class="display-2 font-weight-bold white-text pt-5 mb-2" style="color: #333333;font-family: 'Righteous', cursive;" id="mid-title">KaedeNoKi</h2>
     
                         <!-- Description -->
                         <h4 class="white-text my-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti consequuntur.</h4>
@@ -222,7 +222,9 @@
             
             <section id="people">
                 <div class="row mt-4">
-                    <div class="col-5" style="background-color: #BFFFDA;width: 100%; display:flex;align-items: center;">
+                    
+                    <!-- Our Team -->
+                    <div class="col-md-5 col-sm-12" style="background-color: #BFFFDA;width: 100%; display:flex;align-items: center;">
                         <div class="text-center" style="color:#219653;font-size: 30px;font-family: 'Righteous', cursive;width: 100%;">
                             Our Team
                         </div>
@@ -232,40 +234,47 @@
 
                     <div class="col-7">
                         <div class="row mr-2">
-                            <div class="col-4"">
+                            <div class="col-md-4 col-sm-12">
                                 <div class="card" style="border-radius: 10px;">
                                     <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Others/images/43.jpg" style="border-radius: 10px">
                                 </div>
-                                <div class="mt-2 text-center font-weight-bold" style="font-family: 'Righteous', cursive;">Febry Ardiansyah</div>
+                                <div class="mt-2 text-center font-weight-bold" style="font-family: 'Righteous', cursive;" id="team-name">Febry Ardiansyah</div>
                             </div>
 
-                            <div class="col-4"">
+                            <div class="col-md-4 col-sm-12">
                                 <div class="card" style="border-radius: 10px;">
                                     <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Others/images/43.jpg" style="border-radius: 10px">
                                 </div>
-                                <div class="mt-2 text-center font-weight-bold" style="font-family: 'Righteous', cursive;">Febry Ardiansyah</div>
+                                <div class="mt-2 text-center font-weight-bold" style="font-family: 'Righteous', cursive;" id="team-name">Febry Ardiansyah</div>
                             </div>
 
-                            <div class="col-4"">
+                            <div class="col-md-4 col-sm-12">
                                 <div class="card" style="border-radius: 10px;">
                                     <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Others/images/43.jpg" style="border-radius: 10px">
                                 </div>
-                                <div class="mt-2 text-center font-weight-bold" style="font-family: 'Righteous', cursive;">Febry Ardiansyah</div>
+                                <div class="mt-2 text-center font-weight-bold" style="font-family: 'Righteous', cursive;" id="team-name">Febry Ardiansyah</div>
                             </div>
                         </div>
                         <div class="row mt-3">
-                            <div class="col-4"">
+                            <div class="col-md-4 col-sm-12">
                                 <div class="card" style="border-radius: 10px;">
                                     <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Others/images/43.jpg" style="border-radius: 10px">
                                 </div>
-                                <div class="mt-2 text-center font-weight-bold" style="font-family: 'Righteous', cursive;">Febry Ardiansyah</div>
+                                <div class="mt-2 text-center font-weight-bold" style="font-family: 'Righteous', cursive;" id="team-name">Febry Ardiansyah</div>
                             </div>
 
-                            <div class="col-4"">
+                            <div class="col-md-4 col-sm-12">
                                 <div class="card" style="border-radius: 10px;">
                                     <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Others/images/43.jpg" style="border-radius: 10px">
                                 </div>
-                                <div class="mt-2 text-center font-weight-bold" style="font-family: 'Righteous', cursive;">Febry Ardiansyah</div>
+                                <div class="mt-2 text-center font-weight-bold" style="font-family: 'Righteous', cursive;" id="team-name">Febry Ardiansyah</div>
+                            </div>
+                        </div>
+                            <div class="col-md-4 col-sm-12">
+                                <div class="card" style="border-radius: 10px;">
+                                    <img class="img-fluid" src="https://mdbootstrap.com/img/Photos/Others/images/43.jpg" style="border-radius: 10px">
+                                </div>
+                                <div class="mt-2 text-center font-weight-bold" style="font-family: 'Righteous', cursive;" id="team-name">Febry Ardiansyah</div>
                             </div>
                         </div>
 
@@ -277,7 +286,7 @@
 
             <section id="contact">
                 <div class="row" style="background-color: #F2F2F2;height: 400px;">
-                    <div class="col-4">
+                    <div class="col-md-4 col-sm-12">
                         <form class="text-center ml-5">
                             <!-- Name -->
                             <div class="md-form">
@@ -297,20 +306,18 @@
                                 <label for="materialLoginFormEmail">Message</label>
                             </div>
 
-                            <!-- Send button -->
-                            <button type="button" class="btn btn-outline-danger waves-effect" style="width:200px">Send</button>
-
-                        </form>
-                    </div>
-                    <div class="col-4">
-                        <form class="text-center ml-5">
                             <!-- Email -->
                             <div class="md-form">
                                 <input type="text" id="materialLoginFormEmail" class="form-control">
                                 <label for="materialLoginFormEmail">Your email</label>
                             </div>
+
+                            <!-- Send button -->
+                            <button type="button" class="btn btn-outline-danger waves-effect" style="width:200px">Send</button>
+
                         </form>
                     </div>
+
                 </div>
             </section>
 

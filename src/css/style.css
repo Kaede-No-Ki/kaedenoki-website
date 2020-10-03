@@ -1,20 +1,23 @@
 .navbar {
     background-color: transparent;
   }
-  .scrolling-navbar {
+.scrolling-navbar {
     transition: background .5s ease-in-out, padding .5s ease-in-out;
-  }
-  .top-nav-collapse {
+}
+
+.top-nav-collapse {
+    background-color: #667490;
+}
+
+footer.page-footer {
+    background-color: #667490;
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar {
     background-color: #667490;
   }
-  footer.page-footer {
-    background-color: #667490;
-  }
-  @media only screen and (max-width: 768px) {
-    .navbar {
-      background-color: #667490;
-    }
-  }
+}
 
 html,
 body,
@@ -30,4 +33,10 @@ header,
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+}
+
+@media only screen and (max-width:400px){
+  #mid-title{
+    font-size:50px
+  }
 }
