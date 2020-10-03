@@ -21,6 +21,7 @@ body,
 header,
 #intro {
     height: 100%;
+    /* width: 100%; */
 }
 
 #intro {
