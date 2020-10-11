@@ -23,6 +23,6 @@ $(".nav-item a").on('click', function(event) {
 $("#see-more").on("click",function(event){
     event.preventDefault();
     $('html, body').animate({
-        scrollTop: $("#our-projects").offset().top
+        scrollTop: $("#our-projects-nav").offset().top
     }, 800);
 })
